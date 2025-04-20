@@ -1,4 +1,5 @@
-* {
+*, *::before, *::after {
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(240, 248, 255, 0.771);
 }
@@ -59,4 +60,14 @@ ul.nav {
     background-color: #b24545;
     width: full;
     color: rgba(240, 248, 255, 0.77);
+}
+
+body ul li.position {
+    text-align: center;
+    display: inline-block;
+    font-size: 17px;
+    border: #45dfdf solid 1px;
+    padding: 10px;
+    margin: 5px;
+    width: 30%;
 }
